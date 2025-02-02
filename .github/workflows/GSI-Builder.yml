@@ -22,6 +22,8 @@ jobs:
     permissions:
       contents: write
       uploads: write
+      packages: write
+      metadata: write
 
     steps:
       - name: Checkout repository
