@@ -31,7 +31,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git clone --recurse-submodules https://$GH_PAT@github.com/FoxetGSI/FoxetGSI-tool.git
+          git clone --recurse-submodules https://$GH_PAT@github.com/defnotegor/FoxetGSI-tool.git
 
       - name: Install dependencies
         run: |
